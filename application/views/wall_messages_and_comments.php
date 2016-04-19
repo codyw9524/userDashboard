@@ -19,8 +19,7 @@
 			echo "<div class='row'>\n";
 			echo "<div class='col-md-9 col-md-offset-2'>\n";
 			echo "<h5><a href='/Users/show/" . $messages['users.id'] . "'>" . $messages['name'] . "</a> wrote:</h5>\n";
-			echo "<h5 class='time'>" . $str . "</h5>\n";
-			echo "<hr>\n";
+			echo "<h5 class='time'>" . $str . " ago</h5>\n";
 			echo "<p class='messages'>" . $messages['content'] . "</p>\n";
 			echo "</div>\n";
 			echo "</div>\n";
@@ -47,7 +46,7 @@
 					echo "<div class='row'>\n";
 					echo "<div class='col-md-8 col-md-offset-3'>\n";
 					echo "<h6><a href='/Users/show/" . $comment['users.id'] . "'>" . $comment['name'] . "</a></h6>\n";
-					echo "<h6 class='time'>" . $str . "</h6>\n";
+					echo "<h6 class='time'>" . $str . " ago</h6>\n";
 					echo "<p class='comment'>" . $comment['content'] . "</p>\n";
 					echo "</div>\n";
 					echo "</div>\n";

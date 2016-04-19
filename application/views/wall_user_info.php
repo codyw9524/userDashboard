@@ -60,7 +60,7 @@ $newdate = date("F jS, Y", $phpdate);
 			</div>
 		</nav>
 		<div class="row">
-			<div class="col-md-3 col-md-offset-1">
+			<div class="col-md-4 col-md-offset-1">
 				<h1><?= $user['first_name'] . ' ' . $user['last_name'] ?></h1>
 				<table class="table"> 
 					<tr>
