@@ -8,7 +8,7 @@ class Users extends CI_Controller {
 		$this->form_validation->set_rules("password", "Password", "required|min_length[8]");
 		$this->form_validation->set_rules("pass_confirm", "Confirmation", "required|matches[password]");
 	}
-	public function new()
+	public function create()
 	{
 		$this->form_validate();
 		if($this->form_validation->run() === FALSE)

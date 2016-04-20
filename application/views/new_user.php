@@ -46,7 +46,7 @@
 				<h3 class="panel-title">Add a New User</h3>
 			</div>
 			<div class="panel-body">
-				<form class="form-horizontal" action="/Users/new" method="post">
+				<form class="form-horizontal" action="/Users/create" method="post">
 					<div class="form-group">
 						<label for="first_name" class="col-sm-2 control-label">First Name</label>
 						<div class="col-sm-10">
