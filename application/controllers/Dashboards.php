@@ -90,7 +90,7 @@ class Dashboards extends CI_Controller {
 	{
 		if($this->input->post('action') === "add_user")
 		{
-			redirect("/Users/new");
+			redirect("/Users/create");
 		}
 		$all_users = $this->Dashboard->get_all_users();
 		if($this->session->userdata('admin') === true)
