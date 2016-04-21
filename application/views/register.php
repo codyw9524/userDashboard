@@ -28,7 +28,7 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
   			<div class="container-fluid">
   				<div class="navbar-header">
-  					<a class="navbar-brand" href="/">TestApp</a>
+  					<a class="navbar-brand" href="">TestApp</a>
   				</div><!-- end of navbar header -->
   				<div class="collapse navbar-collapse" id="navbar_collapse">
   					<ul class="nav navbar-nav">
